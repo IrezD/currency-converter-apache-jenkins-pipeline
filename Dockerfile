@@ -1,6 +1,5 @@
 FROM node
 
-
 # install docker cli
 
 RUN apt-get -y update; apt-get install -y sudo; apt-get install -y git wget
